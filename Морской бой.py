@@ -35,11 +35,11 @@ class Board:
 
 if __name__ == '__main__':
     pygame.init()
-    pygame.display.set_caption('Морские бои')
+    pygame.display.set_caption('Морские бои ВПЕРЕД!!!')
     size = width, height = 300, 300
     screen = pygame.display.set_mode(size)
     running = True
-    minesweeper = Board(6, 6)
+    minesweeper = Board(10, 10)
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
